@@ -1,0 +1,61 @@
+.flexcontainer{
+    border:1px solid blueviolet;
+    display: flex;
+    height: 90px;
+     align-items: center;
+     gap: 20px;
+    flex-direction: row;
+    align-items:center; 
+    flex-wrap: wrap;
+    align-content: center;
+}
+.flexItem{
+    background-color: blue;
+    border: 2px solid rebeccapurple;
+    color: tomato;
+    font-size: 24px;
+    height: 60px;
+    width: 80px;
+}
+.flex{
+    background-color: blue;
+    border: 2px solid rebeccapurple;
+    color: tomato;
+    font-size: 24px;
+    height: 60px;
+    width: 1500px;
+    text-align: center;
+}
+.jc1{
+  display: flex;
+  gap: 30px;
+  border: 1px solid black;
+  padding: 07px;
+  justify-content: center;
+  
+}
+.jc2{
+  display: flex;
+  gap: 30px;
+  border: 1px solid black;
+  padding: 07px;
+  justify-content: space-between;
+}
+.jc3{
+  display: flex;
+  gap: 30px;
+  border: 1px solid black;
+  padding: 07px;
+  justify-content: space-around;
+  
+}
+.text{
+    background-color: blue;
+    border: 2px solid rebeccapurple;
+    color: tomato;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    flex-wrap: wrap;
+
+}
